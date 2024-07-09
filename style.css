@@ -1,0 +1,422 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+    background-color: black;
+}
+.main
+{
+    height: 90vh;
+    font-family: "Martel Sans", sans-serif;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/0552717c-9d8c-47bd-9640-4f4efa2de663/537e2c5e-c750-4d4c-9f7a-e66fe93eb977/IN-en-20240701-POP_SIGNUP_TWO_WEEKS-perspective_WEB_b00eeb83-a7e8-4b5b-8ff7-86ed92c51caf_small.jpg");
+    background-position: center center;
+    position: relative;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.box
+{
+    position: absolute;
+    top: 0;
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
+.plus, button
+{
+    cursor: pointer;
+}
+.nav-bar
+{
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    color: red;
+    font-size: 2em;
+}
+.nav-btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.nav-btn button
+{
+    padding: 5px 10px;
+}
+.content
+{
+    padding-top: 15vh;
+    position: relative;
+    z-index: 100;
+    text-align: center;
+    color: white;
+    line-height: 2;
+}
+.content :nth-child(1)
+{
+    font-size: 44px;
+    font-weight: bold;
+}
+.content :nth-child(2)
+{
+    font-size: 24px;
+}
+.content :nth-child(3)
+{
+    font-size: 20px;
+}
+.email
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.text-box
+{
+    border-radius: 5px;
+    width: 17vw;
+    height: 30px;
+    margin: 10px;
+    padding: 2px 10px;
+    background-color: rgba(12, 12, 12, 0.385);
+    color: white;
+    border: 2px solid white;
+}
+.email button
+{
+    height: 30px;
+    width: 7vw;
+}
+.btn-red
+{
+    background-color: rgb(246, 5, 5);
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.btn-black
+{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.seperation
+{
+    height: 10px;
+    background-color: rgba(232, 232, 216, 0.293);
+}
+.first
+{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 70vh;
+}
+.sec1content
+{
+    color: white;
+}
+.sec1content :nth-child(1)
+{
+    font-size: 3em;
+    font-weight: bolder;
+}
+.sec1content :nth-child(2)
+{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.sec1Image
+{
+    position: relative;
+}
+.sec1Image img
+{
+    width: 30vw;
+    position: relative;
+    z-index: 100;
+}
+.sec1Image video
+{
+    position: absolute;
+    left: 60px;
+    top: 70px;
+    width: 23vw;
+}
+.second
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+    position: relative;
+    padding: 40px;
+    height: 70vh;
+    margin-bottom: 30px;
+}
+.img-box
+{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 25vw;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 125px;
+    background-color: black;
+}
+.img-box div
+{
+    color: white;
+    padding: 28px 10px;
+}
+.img-box div :nth-child(2)
+{
+    color: rgb(17, 17, 252);
+}
+.img-box :nth-child(3)
+{
+    margin-top: 12px;
+    height: 75px;
+}
+.sec2content
+{
+    color: white;
+}
+.sec2content :nth-child(1)
+{
+    font-size: 3em;
+    font-weight: bolder;
+}
+.sec2content :nth-child(2)
+{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.three
+{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 70vh;
+}
+.sec3content
+{
+    color: white;
+}
+.sec3content :nth-child(1)
+{
+    font-size: 3em;
+    font-weight: bolder;
+}
+.sec3content :nth-child(2)
+{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.sec3Image
+{
+    position: relative;
+}
+.sec3Image img
+{
+    width: 30vw;
+    position: relative;
+    z-index: 100;
+}
+.sec3Image video
+{
+    position: absolute;
+    left: 75px;
+    top: 30px;
+    width: 20vw;
+}
+.four
+{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 70vh;
+}
+.sec4content
+{
+    color: white;
+}
+.sec4content :nth-child(1)
+{
+    font-size: 3em;
+    font-weight: bolder;
+}
+.sec4content :nth-child(2)
+{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.five
+{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+.five h2
+{
+    font-size: 3em;
+    font-weight: bold;
+    margin: 10px;
+}
+.question
+{
+    height: 50px;
+    display: flex;
+    border: 2px solid white;
+    font-size: 1.5em;
+    font-weight: 400;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(163 162 162 / 48%);
+    margin: 15px;
+    padding: 10px 30px;
+}
+.subscribe
+{
+    margin: 10px;
+}
+.subscribe :nth-child(1)
+{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.footer
+{
+    height: 30vh;
+    width: 80vw;
+    margin: auto;
+    padding: 40px;
+    color: rgba(255, 255, 255, 0.768);
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+}
+.flex1
+{
+    display: flex;
+    gap: 50px;
+}
+.flex2
+{
+    display: flex;
+    gap: 50px;
+}
+.column
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer button
+{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid white;
+    margin: 10px;
+    border-radius: 5px;
+}
+a
+{
+    color: rgba(255, 255, 255, 0.768);
+}
+@media screen and (max-width : 500px) {
+    .sec, .email
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .main, .box
+    {
+        height: auto;
+        object-fit: cover;
+        background-repeat: no-repeat;
+    }
+    .sec1Image video
+    {
+        left: 20px;
+        top: 20px;
+    }
+    .img-box
+    {
+        width: 70vw;
+        top: 400px;
+        left: 50px;
+        margin: 10px auto;
+    }
+    .sec3Image
+    {
+        left: 20px;
+        top: 10px;
+    }
+    .sec3Image video 
+    {
+        left: 20px;
+        top: 10px;
+    }
+    .sec4Img img
+    {
+        width: 70vw;
+    }
+    .text-box
+    {
+        width: 70vw;
+    }
+    .email button
+    {
+        width: 50vw;
+    }
+    .secImg 
+    {
+        margin: 10px;
+    }
+    .sec-content
+    {
+        margin: 10px;
+    }
+}
